@@ -227,7 +227,7 @@ header{
             flex-direction: column;
         }
         .card_title{
-            font-size: 0.5rem;
+            font-size: 0.75rem;
             margin-bottom: 15px;
             text-align: center;
            
@@ -236,7 +236,7 @@ header{
         .parrafo_tarjetas{
             margin: 10px 0;
             text-align: center;
-            font-size: 0.5rem;
+            font-size: 0.75rem;
         }
       .section_form{
 
@@ -255,7 +255,15 @@ header{
         border-radius: 5px;
        margin-bottom: 5rem;
        }
-
+       .card {
+        width: 50vw;
+        height: 65vh;
+        display: inline-block;
+        margin: 20px;
+        border: 1px solid black;
+        border-radius: 5px;
+        box-shadow: 5px 10px #888888;
+       }
 
 
        footer{
