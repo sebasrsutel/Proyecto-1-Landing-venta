@@ -147,8 +147,8 @@ header{
     }
     
        .card {
-        width: 27%;
-        height: 400px;
+        width: 27vw;
+        height: 65vh;
         display: inline-block;
         margin: 20px;
         border: 1px solid black;
@@ -198,3 +198,78 @@ header{
         height: 500px;
 
        }
+
+       @media (max-width: 950px){
+        .card_title{
+            font-size: 0.75rem;
+            margin-bottom: 15px;
+            text-align: center;
+           
+        }
+     
+        .parrafo_tarjetas{
+            margin: 10px 0;
+            text-align: center;
+            font-size: 0.75rem;
+        }
+    }
+
+
+    @media (max-width: 700px){
+        .card_container {
+            width: 100vw;
+            
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-evenly;
+            height: 100%;
+            align-items: center;
+            flex-direction: column;
+        }
+        .card_title{
+            font-size: 0.5rem;
+            margin-bottom: 15px;
+            text-align: center;
+           
+        }
+     
+        .parrafo_tarjetas{
+            margin: 10px 0;
+            text-align: center;
+            font-size: 0.5rem;
+        }
+      .section_form{
+
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .img_form_container {
+        width: 70%;
+        height: 70%;
+        display: inline-block;
+        margin: 50px;
+        border: 1px solid black;
+        border-radius: 5px;
+       margin-bottom: 5rem;
+       }
+
+
+
+       footer{
+        background-color: #333;
+        display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    height: 4vh;
+    font-size: 1rem;
+    text-decoration: none;
+    margin-top: 20px;
+
+    }
+
+    }
+
